@@ -3,11 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.html">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="about-text">
+            <h5>Things you need to know</h5>
+            <h2>About me</h2>
+            <p>
+            Hi, I'm a UI/UX designer with a little background in front-end development. I enjoy designing clean, accessible, and user-friendly interfaces that work well across devices. My coding experience helps me create designs that are practical and easy to build.<br><br>
+            I'm always learning—whether it’s trying out new tools, improving my skills, or finding inspiration in everyday things. Outside of tech, I’m into fashion, films, and photography, which influence how I think about color, style, and storytelling.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+   <div class="about-photo">
+        <div class="photo-bg"></div>
+        <img src="pic.jpg" alt="My Picture" />
+   </div>
+    </section>
+
+    <section class="skills-section">
+    <h2 class="skills-title">My Skills</h2>
+        <div class="skills-container">
+            
+            <div class="skill-card">
+            <h3>Front-end Development</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Creating accessible, semantic markup</li>
+            </ul>
+            </div>
+
+            <div class="skill-card">
+            <h3>UI/UX Design</h3>
+            <ul>
+                <li>Wireframing & Prototyping (Figma, Adobe XD)</li>
+                <li>Designing Responsive & Accessible Interfaces</li>
+                <li>Conducting User Research & Usability Testing</li>
+            </ul>
+            </div>
+
+            <div class="skill-card">
+            <h3>Performance</h3>
+            <ul>
+                <li>SEO</li>
+                <li>Accessibility</li>
+                <li>Performance testing</li>
+                <li>Caching</li>
+            </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="project-intro">
+        <h2>My Recent Projects</h2>
+        <p class="projects-description">
+            A few projects I’ve worked on that show my UI/UX design process, from ideas to final designs. <br>
+            Each one focuses on creating clean, user-friendly interfaces.
+        </p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+            <img src="proj1.png" alt="Personal Portfolio">
+            <div class="project-info">
+                <h3>Personal Portfolio</h3>
+                <p>
+                A vibrant and modern portfolio site with bold colors and a clear layout. Designed to highlight personal branding, services, and recent creative work.
+                </p>
+                <a href="#">View Project →</a>
+            </div>
+            </div>
+
+            <div class="project-card">
+            <img src="proj2.png" alt="Task Management System">
+            <div class="project-info">
+                <h3>Task Management System</h3>
+                <p>
+                A cheerful and user-friendly task management tool designed to boost productivity. Features include task tracking, progress overview, and a clean, bee-themed interface.
+                </p>
+                <a href="#">View Project →</a>
+            </div>
+            </div>
+
+            <div class="project-card">
+            <img src="proj3.png" alt="Social Media Website">
+            <div class="project-info">
+                <h3>Social Media Website</h3>
+                <p>
+                A sleek, entertainment-themed social platform designed for sharing content, connecting with others, and exploring media. Features include profiles, messaging, and category-based browsing.
+                </p>
+                <a href="#">View Project →</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    © 2025 Cristine Mae. All rights reserved.
+    </footer>
     
 </body>
 </html>
